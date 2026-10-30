@@ -6,10 +6,9 @@ In a systematic cadaster project every property is a CGXML file: the land, its b
 
 These tools do that work in batches. They turn CGXML files into shapefiles and attribute tables, join CAD drawings with their labels, export DXF files, rename scanned documents, calculate areas and fix common problems in Generare CG output. The manual time goes into decisions and quality control instead of copying values by hand.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/overview-dark.png">
-  <img alt="From CGXML files downloaded from e-Terra, to land and building shapefiles, to one attribute table to check" src="docs/images/overview.png">
-</picture>
+This is a real project in ArcMap, with the land and buildings read from 1,642 e-Terra CGXML files by [tool 01](tools/01-eterra-cgxml-to-shapefiles):
+
+<img alt="ArcMap with one layer for every land and building read from the CGXML files, and the table of building 35002_C1 with its land ID and construction code" src="docs/images/real_tool01_result.png">
 
 ## What is inside
 
@@ -96,6 +95,8 @@ All coordinates are handled in the Romanian national system Stereo 70 (EPSG:3170
 ## Sample data
 
 Everything in [sample_data](sample_data) is made up. The files keep the structure of real CGXML files, so every tool can be tried on them. Every name, personal ID number (CNP), address, land book, cadastral, title and deed number, date and authority was replaced with fictional values, and all parcels were moved to a different location. See [sample_data/README.md](sample_data/README.md).
+
+The screenshots come from real projects. Owner names, personal notes, deed and title numbers, administrative unit codes and the folder and layer names that show the place are blurred, and the map coordinates are cropped out.
 
 ## License
 

@@ -2,10 +2,9 @@
 
 New measurements are usually drawn in AutoCAD or a similar program. A drawing keeps the shapes, but the land IDs and construction codes are only text labels placed inside them. This tool turns the labels into attributes with three spatial joins, so every building knows its construction code and the ID of the land it stands on. That is what Generare CG needs.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../docs/images/tool05_spatial_join-dark.png">
-  <img alt="On the left, the drawing with land and building outlines and text labels. On the right, every building linked to its code and to the ID of the land it stands on" src="../../docs/images/tool05_spatial_join.png">
-</picture>
+This is the result on a real drawing: the buildings with their construction codes and the IDs of the land they stand on. The three selected rows have no code, so their label is missing in the drawing. The map shows which buildings they are:
+
+<img alt="ArcMap with the Imobile_Complet table of buildings with their codes and land IDs, and three rows without a code selected and outlined on the map" src="../../docs/images/real_tool05_result.png">
 
 **Files:** `FullJoin.py` (script), `SoftwareMultipleJoin.tbx` (toolbox, tool name `MultipleSpatialJoin`)
 

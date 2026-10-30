@@ -2,10 +2,9 @@
 
 The check for the legal data in files made with Generare CG. It reads parcels, deeds, owners, registrations and quotas from every file and puts them into one polygon layer, one row per property, ready to check against the documents before upload.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../docs/images/tool08_attributes-dark.png">
-  <img alt="Attribute table made by tool 08 with ID, tarla, parcel number, use, area, title number and date, owners and quota" src="../../docs/images/tool08_attributes.png">
-</picture>
+This is the result on a real project, with the 208 files of one cadastral sector in one table. Owner names, notes, deed numbers, authorities and the administrative unit code are blurred:
+
+<img alt="Attribute table made by tool 08 on a real project, with registrations, areas, quotas, tarla and parcel numbers and use categories, and the personal and deed columns blurred" src="../../docs/images/real_tool08_result.png">
 
 **Files:** `Total.py` (script), `Full CG.tbx` (toolbox, tool name `CGXMLTotal`)
 
@@ -19,6 +18,10 @@ This is the tool in ArcMap:
 |-----------|-----------------|
 | CGXML Folder | Folder with the CGXML files made by Generare CG. |
 | Output shapefile path | The new shapefile. |
+
+While it runs, the window lists every file it reads and warns about IDs that appear twice. The folder named after the place is blurred:
+
+<img alt="The tool running: it found 208 CGXML files, lists each file it reads and warns that ID 155 is duplicated" src="../../docs/images/real_tool08_run.png" width="640">
 
 ## Fields in the output
 

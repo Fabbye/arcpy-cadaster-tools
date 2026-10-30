@@ -4,10 +4,9 @@ Generare CG, the ANCPI program that creates CGXML files, sometimes saves broken 
 
 It works like [tool 01](../01-eterra-cgxml-to-shapefiles), but reads the structure of Generare CG files, where every property is identified by its temporary CADGEN number.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../docs/images/tool07_generare_cg_to_shapefiles-dark.png">
-  <img alt="Generare CG files 101 to 113 turned into shapefiles labelled with their CADGEN numbers" src="../../docs/images/tool07_generare_cg_to_shapefiles.png">
-</picture>
+This is the result on a real project, where 125 Generare CG files became one shapefile per land and per building. The administrative unit code is blurred:
+
+<img alt="ArcMap with one layer for every land and building read from Generare CG files, and the table of building 4544_C1 with its land ID and construction code" src="../../docs/images/real_tool07_result.png">
 
 **Files:** `CGXML_CADGEN-SHP.py` (script), `CGXMLCADGEN_SHP.tbx` (toolbox, tool name `CGXMLCADGEN-SHP`)
 
@@ -21,6 +20,10 @@ This is the tool in ArcMap:
 |-----------|-----------------|
 | CGXML_Folder | Folder with the CGXML files made by Generare CG. |
 | Export_SHP_Folder | Folder for the new shapefiles. Type or paste the path, and create the folder first. |
+
+While it runs, the window lists every file it reads and every shapefile it creates:
+
+<img alt="The tool running: it found 125 CGXML files and lists each file it reads and each shapefile it creates" src="../../docs/images/real_tool07_run.png" width="640">
 
 ## Output
 

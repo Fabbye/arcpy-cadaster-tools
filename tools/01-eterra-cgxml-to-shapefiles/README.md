@@ -2,10 +2,9 @@
 
 Turns every CGXML file downloaded from e-Terra into shapefiles: one for the land and one for each building on it. This makes the geometry of a whole administrative unit visible in ArcMap in one run.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../docs/images/tool01_cgxml_to_shapefiles-dark.png">
-  <img alt="Part of the CGXML file 50103.cgxml next to the two shapefiles made from it: 50103.shp for the land and 50103_C1.shp for its building" src="../../docs/images/tool01_cgxml_to_shapefiles.png">
-</picture>
+This is the result on a real project, where 1,642 CGXML files became one shapefile per land and per building:
+
+<img alt="ArcMap with one layer for every land and building read from the CGXML files, and the table of building 35002_C1 with its land ID 35002 and construction code C1" src="../../docs/images/real_tool01_result.png">
 
 **Files:** `CGXML_IE-SHP.py` (script), `CGXMLIE_SHP.tbx` (toolbox, tool name `CGXMLETERRA-SHP`)
 
@@ -19,6 +18,10 @@ This is the tool in ArcMap:
 |-----------|-----------------|
 | Input_CGXML_Folder | Folder with the `.cgxml` files from e-Terra. ArcMap does not show `.cgxml` files in the browse dialog, so the folder can look empty. That is normal. |
 | Output_SHP_Folder | Folder for the new shapefiles. Type or paste the path, and create the folder first. |
+
+While it runs, the window lists every file it reads and every shapefile it creates:
+
+<img alt="The tool running: it found 1642 CGXML files and lists each file it reads and each shapefile it creates" src="../../docs/images/real_tool01_run.png" width="640">
 
 ## Output
 

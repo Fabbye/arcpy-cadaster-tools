@@ -2,10 +2,9 @@
 
 Generare CG takes the geometry of every property and building as a separate DXF file. Exporting them one by one from a CAD program takes about a minute each. This tool exports all of them in one run and names every file after the attribute values you choose.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../docs/images/tool06_export_dxf-dark.png">
-  <img alt="Thirteen property outlines, each saved as its own DXF file named after the property ID" src="../../docs/images/tool06_export_dxf.png">
-</picture>
+This is the result on a real project. Every property and every building became its own DXF file, named after the ID and the construction code:
+
+<img alt="Windows Explorer with the exported DXF files named 1, 1_C1, 1_C2, 2, 3 and so on" src="../../docs/images/real_tool06_result.png" width="640">
 
 **Files:** `FinalProgram.py` (script), `SoftwareExportDXF.tbx` (toolbox, tool name `ExportDXF`)
 
@@ -21,6 +20,10 @@ This is the tool in ArcMap:
 | Output | Folder for the DXF files. Type or paste the path. It is created if it does not exist. |
 | Attribute | Field used for the file name, for example `ID`. |
 | Attribute 2 | Optional second field. The file name becomes `<value 1>_<value 2>.dxf`. |
+
+While it runs, the window lists every file it exports:
+
+<img alt="The ExportDXF tool running and listing each DXF file it exports" src="../../docs/images/real_tool06_run.png" width="560">
 
 ## Details
 

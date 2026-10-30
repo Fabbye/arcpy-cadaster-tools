@@ -2,10 +2,9 @@
 
 Checking geometry is not enough. This tool reads the legal and technical data of every e-Terra CGXML file (parcels, areas, deeds, registrations, owners, notes) and puts it into one polygon layer, one row per property. The table can then be sorted, filtered or exported to Excel for checking.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../docs/images/tool03_attributes-dark.png">
-  <img alt="Attribute table made by tool 03 with ID, measured area, use categories, deed numbers, authorities and owner names for each property" src="../../docs/images/tool03_attributes.png">
-</picture>
+This is the result on a real project, with 1,752 properties in one table. Owner names, deed and title numbers and the layer name are blurred:
+
+<img alt="Attribute table made by tool 03 on a real project, with deed types, areas, tarla and parcel numbers and use categories for each property, and the owner and deed columns blurred" src="../../docs/images/real_tool03_result.png">
 
 **Files:** `Full CG IE.py` (script), `FULL CG IE.tbx` (toolbox, tool name `CgEterra`)
 
@@ -19,6 +18,10 @@ This is the tool in ArcMap:
 |-----------|-----------------|
 | Folder path to CGXML | Folder with the `.cgxml` files from e-Terra. |
 | Output shapefile path | The new shapefile, for example `C:\work\eterra_attributes.shp`. |
+
+While it runs, the window lists every file it reads and reports the files without geometry. The folder names are blurred:
+
+<img alt="The tool running: it lists each CGXML file it reads and reports the files that have no geometry" src="../../docs/images/real_tool03_run.png" width="640">
 
 ## Fields in the output
 

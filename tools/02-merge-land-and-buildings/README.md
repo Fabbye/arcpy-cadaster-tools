@@ -2,10 +2,9 @@
 
 A whole administrative unit gives thousands of single shapefiles. This tool merges them into two layers: `Land.shp` and `Buildings.shp`.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../docs/images/tool02_merge-dark.png">
-  <img alt="Thirty single shapefiles merged into one Land layer with 13 features and one Buildings layer with 17 features" src="../../docs/images/tool02_merge.png">
-</picture>
+This is the result on a real project: one Land layer and one Buildings layer with 1,427 buildings, each with the ID of its land and its construction code:
+
+<img alt="ArcMap with the merged Land layer in pink, the Buildings layer in blue and the Buildings table with the fields ID_IMOBIL and COD_CTIE" src="../../docs/images/real_tool02_result.png">
 
 **Files:** `Combined_Lands_Building.py` (script), `Combining_Land_Buildings.tbx` (toolbox, tool name `LandsBuildings`)
 

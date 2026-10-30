@@ -2,10 +2,9 @@
 
 The final technical report needs, for every property, the area inside the built up area (intravilan) and the area outside it. This tool calculates both in one run. There are two versions.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../docs/images/tool09_surface_calculator-dark.png">
-  <img alt="Map of properties cut by the built up area limit, next to a table of the area inside, outside and in total for each property" src="../../docs/images/tool09_surface_calculator.png">
-</picture>
+This is the result on a real project. Every property got its area inside the limit, outside it and in total. Title and land registry numbers are blurred:
+
+<img alt="Attribute table of 32 properties with the fields AreaIn, AreaOut and TotalArea" src="../../docs/images/real_tool09_result.png" width="640">
 
 **Files:** `Surface Calculator (Same Layer).py`, `Surface Calculator (Multiple Output).py`, `Surface Calculator.tbx` (toolbox, tool name `SurfaceCaluclator`, which runs the Same Layer version)
 
@@ -19,6 +18,10 @@ Adds three fields to the property layer: `AreaIn`, `AreaOut` and `TotalArea`, in
 |-----------|-----------------|
 | File to clip | The property layer. **It is changed in place, so work on a copy.** |
 | Clip model | The polygon of the built up area limit. |
+
+For the 32 properties in the table above it needed less than a second:
+
+<img alt="The Surface Calculator finished in 0.87 seconds" src="../../docs/images/real_tool09_run.png" width="640">
 
 ## Multiple Output version
 
