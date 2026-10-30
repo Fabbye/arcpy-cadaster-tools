@@ -1,0 +1,7 @@
+# keep binary GIS and office files byte for byte
+*.tbx binary
+*.shp binary
+*.shx binary
+*.dbf binary
+*.xlsx binary
+*.pdf binary

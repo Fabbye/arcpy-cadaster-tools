@@ -1,0 +1,253 @@
+<?xml version="1.0" standalone="yes"?>
+<CGXML>
+  <Address>
+    <ADDRESSID>1</ADDRESSID>
+    <SIRSUP>99902</SIRSUP>
+    <SIRUTA />
+    <INTRAVILAN>false</INTRAVILAN>
+    <DISTRICTTYPE />
+    <DISTRICTNAME />
+    <STREETTYPE />
+    <STREETNAME />
+    <POSTALNUMBER />
+    <BLOCK />
+    <FLOOR />
+    <APNO />
+    <ZIPCODE>999999</ZIPCODE>
+    <DESCRIPTION />
+    <SECTION />
+  </Address>
+  <Address>
+    <ADDRESSID>2</ADDRESSID>
+    <SIRSUP>99902</SIRSUP>
+    <SIRUTA>99917</SIRUTA>
+    <INTRAVILAN>true</INTRAVILAN>
+    <POSTALNUMBER />
+    <BLOCK />
+    <ENTRY />
+    <FLOOR />
+    <APNO />
+    <ZIPCODE>999999</ZIPCODE>
+    <DESCRIPTION />
+    <SECTION />
+  </Address>
+  <Deed>
+    <DEEDID>2</DEEDID>
+    <DEEDNUMBER>9470271</DEEDNUMBER>
+    <DEEDDATE>2000-01-02T00:00:00+02:00</DEEDDATE>
+    <DEEDTYPE>ADMINISTRATIVE_1</DEEDTYPE>
+    <AUTHORITY>CJPSD EXEMPLU</AUTHORITY>
+    <NOTES>TITLU DE PROPRIETATE</NOTES>
+    <FILEID>1</FILEID>
+  </Deed>
+  <FileDescription>
+    <FILENAME>102.CGXML</FILENAME>
+    <FILEVERSION>3.0</FILEVERSION>
+    <OPERATIONTYPE>GENERAL_CADASTRE</OPERATIONTYPE>
+    <LICENSEDNAME />
+    <LICENSENUMBER />
+    <FILEID>1</FILEID>
+  </FileDescription>
+  <Land>
+    <LANDID>1</LANDID>
+    <CADSECTOR>7</CADSECTOR>
+    <ADDRESSID>1</ADDRESSID>
+    <MEASUREDAREA>4643</MEASUREDAREA>
+    <PARCELLEGALAREA>6050</PARCELLEGALAREA>
+    <ISNEW>true</ISNEW>
+    <NOTES>Imobil traversat de DE 90165/1 diferenta se gaseste la ID 103</NOTES>
+    <ENCLOSED>false</ENCLOSED>
+    <COAREA>true</COAREA>
+    <E2IDENTIFIER />
+    <PAPERCADNO />
+    <PAPERLBNO />
+    <TOPONO />
+    <CADGENNO>102</CADGENNO>
+  </Land>
+  <Parcel>
+    <PARCELID>1</PARCELID>
+    <LANDID>1</LANDID>
+    <NUMBER>1</NUMBER>
+    <MEASUREDAREA>4643</MEASUREDAREA>
+    <USECATEGORY>A</USECATEGORY>
+    <INTRAVILAN>false</INTRAVILAN>
+    <TITLENO />
+    <LANDPLOTNO>45</LANDPLOTNO>
+    <PARCELNO>31</PARCELNO>
+    <NOTES />
+    <TOPONO />
+    <CADGENNO>1</CADGENNO>
+  </Parcel>
+  <Person>
+    <PERSONID>1</PERSONID>
+    <ADDRESSID>2</ADDRESSID>
+    <FIRSTNAME>LUMINITA</FIRSTNAME>
+    <ISPHYSICAL>true</ISPHYSICAL>
+    <LASTNAME>CAZACU</LASTNAME>
+    <DEFUNCT>false</DEFUNCT>
+    <IDENTIFIED>true</IDENTIFIED>
+    <IDCODE>9999999999999</IDCODE>
+    <PREVIOUSLASTNAME />
+    <FATHERINITIAL />
+    <CITIZENSHIPCOUNTRY>RO</CITIZENSHIPCOUNTRY>
+    <IDCARDTYPE />
+    <IDCARDSERIALNO />
+    <IDCARDNUMBER />
+    <NOTES />
+    <PHONE />
+    <EMAIL />
+    <FILEID>1</FILEID>
+    <REGISTRATIONID>2</REGISTRATIONID>
+  </Person>
+  <Points>
+    <POINTID>1</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>1</NO>
+    <X>498711.706</X>
+    <Y>455440.647</Y>
+  </Points>
+  <Points>
+    <POINTID>2</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>2</NO>
+    <X>498727.451</X>
+    <Y>455434.231</Y>
+  </Points>
+  <Points>
+    <POINTID>3</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>3</NO>
+    <X>498745.411</X>
+    <Y>455430.775</Y>
+  </Points>
+  <Points>
+    <POINTID>4</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>4</NO>
+    <X>498747.296</X>
+    <Y>455430.412</Y>
+  </Points>
+  <Points>
+    <POINTID>5</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>5</NO>
+    <X>498781.343</X>
+    <Y>455424.592</Y>
+  </Points>
+  <Points>
+    <POINTID>6</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>6</NO>
+    <X>498806.771</X>
+    <Y>455417.907</Y>
+  </Points>
+  <Points>
+    <POINTID>7</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>7</NO>
+    <X>498813.348</X>
+    <Y>455416.178</Y>
+  </Points>
+  <Points>
+    <POINTID>8</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>8</NO>
+    <X>498817.896</X>
+    <Y>455414.982</Y>
+  </Points>
+  <Points>
+    <POINTID>9</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>9</NO>
+    <X>498821.359</X>
+    <Y>455414.072</Y>
+  </Points>
+  <Points>
+    <POINTID>10</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>10</NO>
+    <X>498826.313</X>
+    <Y>455412.769</Y>
+  </Points>
+  <Points>
+    <POINTID>11</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>11</NO>
+    <X>498845.302</X>
+    <Y>455407.927</Y>
+  </Points>
+  <Points>
+    <POINTID>12</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>12</NO>
+    <X>498857.411</X>
+    <Y>455397.025</Y>
+  </Points>
+  <Points>
+    <POINTID>13</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>13</NO>
+    <X>498860.256</X>
+    <Y>455384.131</Y>
+  </Points>
+  <Points>
+    <POINTID>14</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>14</NO>
+    <X>498649.40</X>
+    <Y>455428.504</Y>
+  </Points>
+  <Points>
+    <POINTID>15</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>15</NO>
+    <X>498651.447</X>
+    <Y>455438.652</Y>
+  </Points>
+  <Points>
+    <POINTID>16</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>16</NO>
+    <X>498653.604</X>
+    <Y>455450.209</Y>
+  </Points>
+  <Points>
+    <POINTID>17</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>17</NO>
+    <X>498660.043</X>
+    <Y>455448.854</Y>
+  </Points>
+  <Points>
+    <POINTID>18</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>18</NO>
+    <X>498676.573</X>
+    <Y>455445.375</Y>
+  </Points>
+  <Points>
+    <POINTID>19</POINTID>
+    <IMMOVABLEID>1</IMMOVABLEID>
+    <NO>19</NO>
+    <X>498687.861</X>
+    <Y>455443.556</Y>
+  </Points>
+  <Registration>
+    <REGISTRATIONID>2</REGISTRATIONID>
+    <REGISTRATIONTYPE>INTAB</REGISTRATIONTYPE>
+    <RIGHTTYPE>PROPRIETATE</RIGHTTYPE>
+    <RIGHTCOMMENT>cu titlu de drept reconstituire</RIGHTCOMMENT>
+    <DEEDID>2</DEEDID>
+    <TITLE>reconstituire</TITLE>
+    <QUOTATYPE>FRACTION_QUOTA</QUOTATYPE>
+    <ACTUALQUOTA>1/1</ACTUALQUOTA>
+    <COMMENTS />
+    <LBPARTNO>2</LBPARTNO>
+    <POSITION>1</POSITION>
+  </Registration>
+  <RegistrationXEntity>
+    <REGISTRATIONXENTITYID>1</REGISTRATIONXENTITYID>
+    <REGISTRATIONID>2</REGISTRATIONID>
+    <LANDID>1</LANDID>
+  </RegistrationXEntity>
+</CGXML>
